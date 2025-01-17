@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class Enemy : Entity
 {
+    [SerializeField] protected LayerMask whatIsPlayer;
     [Header("Stats")]
 
     public float moveSpeed;
@@ -11,6 +13,9 @@ public class Enemy : Entity
     public float maxHealth;
     public float currentHealth;
     public float damage;
+    [Header("Attack Info")]
+
+    public float attackDistance;
     public EnemyStateMachine stateMachine { get; private set; }
 
     protected override void Awake()
@@ -25,6 +30,15 @@ public class Enemy : Entity
 
         base.Update();
         stateMachine.currentState.Update();
+        
 
+    }
+    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 50, whatIsPlayer);
+
+    protected override void OnDrawGizmos()
+    {
+        base.OnDrawGizmos();
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, new Vector3(transform.position.x + attackDistance * facingDir, transform.position.y));
     }
 }

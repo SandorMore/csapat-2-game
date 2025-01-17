@@ -83153,7 +83153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 121425129}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83481,7 +83481,7 @@ GameObject:
   - component: {fileID: 422662486}
   - component: {fileID: 422662485}
   - component: {fileID: 422662487}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83885,7 +83885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 430766941}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83900,7 +83900,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430766940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.135, y: 0, z: 0}
+  m_LocalPosition: {x: 0.299, y: 0.137, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -90346,7 +90346,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.04, y: -7.94, z: -9.945545}
+  m_LocalPosition: {x: 58.1, y: -6.8, z: -9.945545}
   m_LocalScale: {x: 2.6626, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -90399,7 +90399,7 @@ GameObject:
   - component: {fileID: 542592190}
   - component: {fileID: 542592193}
   - component: {fileID: 542592192}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90454,7 +90454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542592189}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.04, y: -7.94, z: 0.054454442}
+  m_LocalPosition: {x: 58.1, y: -6.8, z: 0.054454442}
   m_LocalScale: {x: 0.96, y: 0.96, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -90801,7 +90801,7 @@ GameObject:
   - component: {fileID: 967772279}
   - component: {fileID: 967772283}
   - component: {fileID: 967772282}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_Soldier1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90827,11 +90827,15 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 256
   moveSpeed: 2.2
   idleTime: 0.66
   maxHealth: 255
   currentHealth: 0
   damage: 0
+  attackDistance: 1.4
 --- !u!4 &967772281
 Transform:
   m_ObjectHideFlags: 0
@@ -90954,7 +90958,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1144292955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91415,7 +91419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1713976904}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92092,7 +92096,7 @@ GameObject:
   - component: {fileID: 1801886916}
   - component: {fileID: 1801886918}
   - component: {fileID: 1801886917}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92334,7 +92338,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058510937}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.04, y: -7.94, z: -9.945545}
+  m_LocalPosition: {x: 58.1, y: -6.8, z: -9.945545}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
