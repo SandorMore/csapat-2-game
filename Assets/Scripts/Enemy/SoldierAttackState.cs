@@ -2,17 +2,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoldierAttackState : MonoBehaviour
+public class SoldierAttackState : EnemyState
 {
-    // Start is called before the first frame update
-    void Start()
+    private Enemy_Soldier enemy;
+    public SoldierAttackState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Enemy_Soldier enemy) : base(_enemyBase, _stateMachine, _animBoolName)
     {
-        
+        this.enemy = enemy;
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Enter()
     {
-        
+        base.Enter();
+    }
+
+    public override void Exit()
+    {
+        base.Exit();
+        enemy.lastTimeAttacked = Time.time;
+    }
+
+    public override void Update()
+    {
+        base.Update();
+        enemy.ZeroVelocity();
+
+        if (triggerCalled)
+        {
+            stateMachine.ChangeState(enemy.battleState);
+        }
     }
 }

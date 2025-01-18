@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SoldierBattleState : EnemyState
@@ -28,11 +29,22 @@ public class SoldierBattleState : EnemyState
         base.Update();
         if (enemy.IsPlayerDetected())
         {
+            stateTimer = enemy.battleTime;
             if (enemy.IsPlayerDetected().distance < enemy.attackDistance)
             {
-                Debug.Log("Nigga");
-                enemy.SetVelocity(0, 0);
-                return;
+                if (CanAttack())
+                {
+                    stateMachine.ChangeState(enemy.attackState);
+                }
+                
+            }
+
+        }
+        else
+        {
+            if (stateTimer < 0 || Vector2.Distance(player.transform.position, enemy.transform.position) > 11)
+            {
+                stateMachine.ChangeState(enemy.idleState);
             }
         }
         if(player.position.x > enemy.transform.position.x)
@@ -44,5 +56,14 @@ public class SoldierBattleState : EnemyState
             moveDir = -1;
         }
         enemy.SetVelocity(enemy.moveSpeed * moveDir * 1.39f, rb.velocity.y);
+    }
+    private bool CanAttack()
+    {
+        if (Time.time >= enemy.lastTimeAttacked + enemy.attacCoolDown)
+        {
+            enemy.lastTimeAttacked = Time.time;
+            return true;
+        }
+        return false;
     }
 }

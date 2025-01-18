@@ -13,9 +13,12 @@ public class Enemy : Entity
     public float maxHealth;
     public float currentHealth;
     public float damage;
+    public float battleTime;
     [Header("Attack Info")]
 
     public float attackDistance;
+    public float attacCoolDown;
+    public float lastTimeAttacked;
     public EnemyStateMachine stateMachine { get; private set; }
 
     protected override void Awake()
@@ -41,4 +44,5 @@ public class Enemy : Entity
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, new Vector3(transform.position.x + attackDistance * facingDir, transform.position.y));
     }
+    public virtual void AnimationTriggerFininsh() => stateMachine.currentState.AnimationFinishTrigger(); 
 }
