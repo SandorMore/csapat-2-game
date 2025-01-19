@@ -25,7 +25,6 @@ public class SoldierAttackState : EnemyState
     {
         base.Update();
         enemy.ZeroVelocity();
-
         if (triggerCalled)
         {
             stateMachine.ChangeState(enemy.battleState);

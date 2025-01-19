@@ -6,6 +6,8 @@ public class Entity : MonoBehaviour
 {
     [Header("Collision Check")]
 
+    public Transform attackCheck;
+    public float attackCheckRadius;
     [SerializeField] protected Transform groundCheck;
     [SerializeField] protected float groundCheckDistance;
     [SerializeField] protected Transform wallCheck;
@@ -40,12 +42,19 @@ public class Entity : MonoBehaviour
     {
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance, whatIsGround));
         Gizmos.DrawLine(wallCheck.position, wallCheck.position + new Vector3(wallCheckDistance * facingDir, 0, 0));
+        Gizmos.color = new Color(1, 0, 0, 0.5f);
+        Gizmos.DrawSphere(attackCheck.position, attackCheckRadius);
     }
     public void Flip()
     {
         facingDir = facingDir * -1;
         facingRight = !facingRight;
         transform.Rotate(0, 180, 0);
+    }
+    public virtual void Damage()
+    {
+        Debug.Log(gameObject.name + "Was damged");
+        
     }
     public void FlipController(float _x)
     {

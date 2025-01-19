@@ -13,6 +13,7 @@ public class Player : Entity
     
     public float[] attackMovement;
 
+
     [Header("Character Stats")]
     #region Stats
     public float maxHealt = 200f;
@@ -28,7 +29,8 @@ public class Player : Entity
     public float attackSpeed = 1f;
     public float BASESPEED = 1f;
     public float healPower = 20f;
-    public int healAmount = 3;
+    public int healAmount = 3; 
+    public float damage = 25f;
     #endregion
     [Header("LayerStuff")]
 
