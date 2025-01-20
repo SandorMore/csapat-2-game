@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: effc011d693003b4cb184fde5883bac9
+guid: 9553501abb71e2e4bb2ddff860332851
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Loading_Bar x1_0
+      name: Sprite-0006_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 147
-        height: 11
+        x: 0
+        y: 0
+        width: 275
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec899053a83f5b646801da459564bc98
-      internalID: 897405595
+      spriteID: 01f706547b9559647802d4c87ddbadf0
+      internalID: 1433997275
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Loading_Bar x1_0: 897405595
+      Sprite-0006_0: 1433997275
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -10,7 +10,7 @@ public class Player : Entity
     public float moveSpeed = 12f;
     public float jumpForce = 10f;
     [Header("Attack Info")]
-    
+
     public float[] attackMovement;
 
 
@@ -29,7 +29,7 @@ public class Player : Entity
     public float attackSpeed = 1f;
     public float BASESPEED = 1f;
     public float healPower = 20f;
-    public int healAmount = 3; 
+    public int healAmount = 3;
     public float damage = 25f;
     #endregion
     [Header("LayerStuff")]
@@ -39,7 +39,7 @@ public class Player : Entity
 
 
     #region States
-    public PlayerStateMachine stateMachine { get; private set;}
+    public PlayerStateMachine stateMachine { get; private set; }
 
     public PlayerIdleState idleState { get; private set; }
     public PlayerMoveState moveState { get; private set; }
@@ -52,8 +52,10 @@ public class Player : Entity
     public PlayerPrimaryAttackState primaryAttack { get; private set; }
 
     public PlayerBlockState blockState { get; private set; }
-    #endregion
+
     public PlayerHealState healState { get; private set; }
+    public PlayerDeathState deathState { get; private set; }
+    #endregion
     protected override void Awake()
     {
         base.Awake();
@@ -62,11 +64,12 @@ public class Player : Entity
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");
         jumpState = new PlayerJumpState(this, stateMachine, "Jump");
-        airState = new PlayerAirState(this, stateMachine,   "Jump");
+        airState = new PlayerAirState(this, stateMachine, "Jump");
         rollState = new PlayerRollState(this, stateMachine, "Roll");
         primaryAttack = new PlayerPrimaryAttackState(this, stateMachine, "Attack");
         blockState = new PlayerBlockState(this, stateMachine, "Block");
         healState = new PlayerHealState(this, stateMachine, "Heal");
+        deathState = new PlayerDeathState(this, stateMachine, "Death");
     }
     protected override void Start()
     {
@@ -79,13 +82,13 @@ public class Player : Entity
     {
         base.Update();
         stateMachine.currentState.Update();
-        
+
     }
     public void AnimatopnTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
     public void RegenerateStamina()
     {
-        currentStamina += regenRate * Time.deltaTime; 
+        currentStamina += regenRate * Time.deltaTime;
         currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
     }
     public void UseStaminaOnAttack()
@@ -102,8 +105,8 @@ public class Player : Entity
         if (currentStamina > 0)
         {
             currentStamina -= staminaUsage;
-            currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina); 
-            regenTimer = regenDelay; 
+            currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
+            regenTimer = regenDelay;
         }
     }
     public IEnumerator BusyFor(float _secounds)
@@ -112,6 +115,10 @@ public class Player : Entity
 
         yield return new WaitForSeconds(_secounds);
         isBusy = false;
+    }
+    public void Death()
+    {
+        Debug.Log("You died");
     }
 
  

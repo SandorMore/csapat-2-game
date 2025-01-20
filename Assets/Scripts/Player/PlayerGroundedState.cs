@@ -20,6 +20,10 @@ public class PlayerGroundedState : PlayerState
 
     public override void Update()
     {
+        if (player.currentHealth <= 0)
+        {
+            stateMachine.ChangeState(player.deathState);
+        }
         if (Input.GetKeyDown(KeyCode.H) && player.healAmount != 0 && player.currentHealth != player.maxHealt)
         {
             stateMachine.ChangeState(player.healState);
