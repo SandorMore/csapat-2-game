@@ -29,5 +29,9 @@ public class SoldierAttackState : EnemyState
         {
             stateMachine.ChangeState(enemy.battleState);
         }
+        if (enemy.currentHealth  <= 0)
+        {
+            stateMachine.ChangeState(enemy.deathState);
+        }
     }
 }

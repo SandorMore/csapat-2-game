@@ -76,4 +76,5 @@ public class Entity : MonoBehaviour
     {
         rb.velocity = new Vector2(0, 0);
     }
+
 }

@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\soldierattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\soldierattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\soldierdeathstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\soldierdeathstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\soldierbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\soldierbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\enemysoldieranimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemysoldieranimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\player\\playeranimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playeranimationtriggers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\soldierattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\soldierattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\soldiergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\soldiergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\enemy_soldier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\enemy_soldier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_soldier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\soldiergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\soldiergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,103 +43,91 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T11:52:54.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerAnimationTriggers.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Player\\PlayerAnimationTriggers.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAnimationTriggers.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Player\\PlayerAnimationTriggers.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAnimationTriggers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T11:52:10.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnemySoldierAnimationTriggers.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T11:52:03.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Entity.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Entity.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Entity.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Entity.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T11:02:28.682Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SoldierGroundedState.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowB8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T16:21:52.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T12:28:28.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Enemy_Soldier.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-18T12:22:59.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "SoldierAttackState.cs",
               "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\SoldierAttackState.cs",
               "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierAttackState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\SoldierAttackState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T21:28:34.866Z",
+              "WhenOpened": "2025-01-20T08:47:17.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SoldierBattleState.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierBattleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\SoldierBattleState.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierBattleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\SoldierBattleState.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T08:46:11.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemySoldierAnimationTriggers.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemySoldierAnimationTriggers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T08:44:01.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoldierDeathState.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierDeathState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\SoldierDeathState.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierDeathState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\SoldierDeathState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T08:23:44.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SoldierGroundedState.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\SoldierGroundedState.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T16:21:52.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIA0wC4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T12:28:28.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy_Soldier.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Soldier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T12:22:59.888Z",
               "EditorCaption": ""
             }
           ]

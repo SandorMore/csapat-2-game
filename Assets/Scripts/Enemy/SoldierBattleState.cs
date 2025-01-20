@@ -26,6 +26,10 @@ public class SoldierBattleState : EnemyState
 
     public override void Update()
     {
+        if (enemy.currentHealth <= 0)
+        {
+            stateMachine.ChangeState(enemy.deathState);
+        }
         base.Update();
         if (enemy.IsPlayerDetected())
         {

@@ -12,6 +12,8 @@ public class Enemy_Soldier : Enemy
     public SoldierBattleState battleState { get; private set; }
     
     public SoldierAttackState attackState { get; private set; }
+
+    public SoldierDeathState deathState { get; private set; }
     #endregion
     protected override void Awake()
     {
@@ -20,6 +22,7 @@ public class Enemy_Soldier : Enemy
         moveState = new SoldierMoveState(this, stateMachine, "Move", this);
         battleState = new SoldierBattleState(this, stateMachine, "Move", this);
         attackState = new SoldierAttackState(this, stateMachine, "Attack", this);
+        deathState = new SoldierDeathState(this, stateMachine, "Death", this);
     }
 
     protected override void Start()

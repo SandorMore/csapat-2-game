@@ -23,4 +23,8 @@ public class EnemySoldierAnimationTriggers : MonoBehaviour
             }
         }
     }
+    private void DeathTrigger()
+    {
+        enemy.Death();
+    }
 }

@@ -26,15 +26,13 @@ public class Enemy : Entity
         currentHealth = maxHealth;
         base.Awake();
         stateMachine = new EnemyStateMachine();
-        
+
     }
     protected override void Update()
     {
 
         base.Update();
         stateMachine.currentState.Update();
-        
-
     }
     public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 50, whatIsPlayer);
 
@@ -44,5 +42,10 @@ public class Enemy : Entity
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, new Vector3(transform.position.x + attackDistance * facingDir, transform.position.y));
     }
-    public virtual void AnimationTriggerFininsh() => stateMachine.currentState.AnimationFinishTrigger(); 
+    public virtual void AnimationTriggerFininsh() => stateMachine.currentState.AnimationFinishTrigger();
+
+    public void Death()
+    {
+        Destroy(gameObject);
+    }
 }
