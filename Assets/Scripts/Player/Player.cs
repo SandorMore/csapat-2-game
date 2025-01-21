@@ -35,7 +35,7 @@ public class Player : Entity
     [Header("LayerStuff")]
 
     public bool isRolling;
-
+    [HideInInspector] public int playerFacingDir { get; private set; } = 1;
 
 
     #region States
@@ -120,6 +120,22 @@ public class Player : Entity
     {
         Debug.Log("You died");
     }
+    public override void Flip()
+    {
+        playerFacingDir = playerFacingDir * -1;
+        facingRight = !facingRight;
+        anim.transform.Rotate(0, 180, 0);
+    }
+    public override void FlipController(float _x)
+    {
+        if (_x > 0 && !facingRight)
+        {
+            Flip();
+        }
+        else if (0 > _x && facingRight)
+        {
+            Flip();
+        }
+    }
 
- 
 }

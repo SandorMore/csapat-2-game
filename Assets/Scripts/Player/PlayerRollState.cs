@@ -27,7 +27,7 @@ public class PlayerRollState : PlayerState
     public override void Update()
     {
         base.Update();
-        player.SetVelocity(player.facingDir * player.rollDistance, rb.velocity.y);
+        player.SetVelocity(player.playerFacingDir * player.rollDistance, rb.velocity.y);
 
         if (0 > stateTimer)
         {

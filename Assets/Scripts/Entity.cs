@@ -45,7 +45,7 @@ public class Entity : MonoBehaviour
         Gizmos.color = new Color(1, 0, 0, 0.5f);
         Gizmos.DrawSphere(attackCheck.position, attackCheckRadius);
     }
-    public void Flip()
+    public virtual void Flip()
     {
         facingDir = facingDir * -1;
         facingRight = !facingRight;
@@ -56,7 +56,7 @@ public class Entity : MonoBehaviour
         Debug.Log(gameObject.name + "Was damged");
         
     }
-    public void FlipController(float _x)
+    public virtual void FlipController(float _x)
     {
         if (_x > 0 && !facingRight)
         {

@@ -26,6 +26,11 @@ public class SoldierBattleState : EnemyState
 
     public override void Update()
     {
+
+        if (enemy.IsPlayerDetected().distance > 0.5f)
+        {
+            enemy.SetVelocity(enemy.moveSpeed * moveDir * 1.39f, rb.velocity.y);
+        }
         if (enemy.currentHealth <= 0)
         {
             stateMachine.ChangeState(enemy.deathState);
@@ -37,13 +42,13 @@ public class SoldierBattleState : EnemyState
 
             if (enemy.IsPlayerDetected().distance < enemy.attackDistance)
             {
+                
                 if (CanAttack())
                 {
                     stateMachine.ChangeState(enemy.attackState);
                 }
                 
             }
-
         }
         else
         {
@@ -60,7 +65,7 @@ public class SoldierBattleState : EnemyState
         {
             moveDir = -1;
         }
-        enemy.SetVelocity(enemy.moveSpeed * moveDir * 1.39f, rb.velocity.y);
+        
     }
     private bool CanAttack()
     {
