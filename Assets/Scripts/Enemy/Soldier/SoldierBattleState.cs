@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SoldierBattleState : EnemyState
 {
+    private float waitTime;
     private int moveDir;
     private Transform player;
     private Enemy_Soldier enemy;
@@ -26,11 +27,12 @@ public class SoldierBattleState : EnemyState
 
     public override void Update()
     {
-
-        if (enemy.IsPlayerDetected().distance > 0.5f)
+        if (enemy.transform.position != player.position)
         {
             enemy.SetVelocity(enemy.moveSpeed * moveDir * 1.39f, rb.velocity.y);
         }
+
+
         if (enemy.currentHealth <= 0)
         {
             stateMachine.ChangeState(enemy.deathState);
@@ -42,11 +44,11 @@ public class SoldierBattleState : EnemyState
 
             if (enemy.IsPlayerDetected().distance < enemy.attackDistance)
             {
-                
-                if (CanAttack())
-                {
-                    stateMachine.ChangeState(enemy.attackState);
-                }
+
+                    if (CanAttack())
+                    {
+                        stateMachine.ChangeState(enemy.attackState);
+                    }
                 
             }
         }
@@ -65,7 +67,7 @@ public class SoldierBattleState : EnemyState
         {
             moveDir = -1;
         }
-        
+
     }
     private bool CanAttack()
     {

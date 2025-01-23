@@ -37,7 +37,6 @@ public class Player : Entity
     public bool isRolling;
     [HideInInspector] public int playerFacingDir { get; private set; } = 1;
 
-
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
 
@@ -70,6 +69,7 @@ public class Player : Entity
         blockState = new PlayerBlockState(this, stateMachine, "Block");
         healState = new PlayerHealState(this, stateMachine, "Heal");
         deathState = new PlayerDeathState(this, stateMachine, "Death");
+
     }
     protected override void Start()
     {
