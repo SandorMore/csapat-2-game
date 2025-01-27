@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class EnemySoldierAnimationTriggers : MonoBehaviour
 {
+    private PlayerStateMachine playerStateMachine;
+    private Player player;
     private Enemy_Soldier enemy => GetComponentInParent<Enemy_Soldier>();
 
     private void AnimationTrigger()

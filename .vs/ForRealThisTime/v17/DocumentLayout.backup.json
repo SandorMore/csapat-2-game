@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\assetek\\fantasy #18\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\assetek\\fantasy #18\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\soldier\\soldierbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\soldier\\soldierbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Assetek\\Fantasy #18\\ReadMe.txt",
+              "RelativeDocumentMoniker": "Assets\\Assetek\\Fantasy #18\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Assetek\\Fantasy #18\\ReadMe.txt",
+              "RelativeToolTip": "Assets\\Assetek\\Fantasy #18\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-27T07:04:01.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SoldierBattleState.cs",
               "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Soldier\\SoldierBattleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Soldier\\SoldierBattleState.cs",
               "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\Soldier\\SoldierBattleState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Soldier\\SoldierBattleState.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwC8AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwC8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T10:28:19.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAiwH8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T09:40:50.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T09:40:50.385Z"
             }
           ]
         }
