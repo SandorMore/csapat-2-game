@@ -31,6 +31,8 @@ public class Player : Entity
     public float healPower = 20f;
     public int healAmount = 3;
     public float damage = 25f;
+
+    public int souls = 0;
     #endregion
     [Header("LayerStuff")]
 
