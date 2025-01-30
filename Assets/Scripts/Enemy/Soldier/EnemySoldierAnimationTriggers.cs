@@ -19,8 +19,13 @@ public class EnemySoldierAnimationTriggers : MonoBehaviour
         {
             if (hit.GetComponent<Player>() != null)
             {
+                if (hit.GetComponent<Player>().IsVoulnerable == false)
+                {
+                    hit.GetComponent<Player>().currentStamina -= 45f;
+                }
                 if (hit.GetComponent<Player>().IsVoulnerable == true)
                 {
+
                     hit.GetComponent<Player>().currentHealth -= enemy.damage;
                 }
             }

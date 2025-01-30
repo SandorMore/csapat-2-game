@@ -14,6 +14,7 @@ public class PlayerBlockState : PlayerState
         base.Enter();
         player.ZeroVelocity();
         player.IsVoulnerable = false;
+        player.canRegen = false;
     }
 
     public override void Exit()
@@ -21,14 +22,17 @@ public class PlayerBlockState : PlayerState
         base.Exit();
         player.ZeroVelocity();
         player.IsVoulnerable = true;
+
     }
 
     public override void Update()
     {
         base.Update();
         player.ZeroVelocity();
-        if (player.isGroundDetected() && !Input.GetKey(KeyCode.Mouse1))
+        
+        if (player.isGroundDetected() && !Input.GetKey(KeyCode.Mouse1) ||player.currentStamina <= 45)
         {
+            player.canRegen = true;
             stateMachine.ChangeState(player.idleState);
             
         }

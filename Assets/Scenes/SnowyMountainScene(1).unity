@@ -97916,7 +97916,7 @@ MonoBehaviour:
   damage: 20
   souls: 0
   IsVoulnerable: 1
-  isRolling: 0
+  canRegen: 1
 --- !u!4 &542592191
 Transform:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : Entity
 {
+    #region General
     public bool isBusy { get; private set; }
 
     [Header("Move Info")]
@@ -15,6 +16,7 @@ public class Player : Entity
 
 
     [Header("Character Stats")]
+    #endregion
     #region Stats
     public float maxHealt = 200f;
     public float currentHealth;
@@ -35,12 +37,9 @@ public class Player : Entity
     public int souls = 0;
 
     public bool IsVoulnerable = true;
-    #endregion
-    [Header("LayerStuff")]
-
-    public bool isRolling;
     [HideInInspector] public int playerFacingDir { get; private set; } = 1;
-
+    [HideInInspector] public bool canRegen = true;
+    #endregion
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
 
@@ -63,7 +62,7 @@ public class Player : Entity
     {
         base.Awake();
         stateMachine = new PlayerStateMachine();
-
+        #region InvokeStates
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");
         jumpState = new PlayerJumpState(this, stateMachine, "Jump");
@@ -73,7 +72,7 @@ public class Player : Entity
         blockState = new PlayerBlockState(this, stateMachine, "Block");
         healState = new PlayerHealState(this, stateMachine, "Heal");
         deathState = new PlayerDeathState(this, stateMachine, "Death");
-
+        #endregion
     }
     protected override void Start()
     {
@@ -92,12 +91,16 @@ public class Player : Entity
 
     public void RegenerateStamina()
     {
-        currentStamina += regenRate * Time.deltaTime;
-        currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
+        if (canRegen)
+        {
+            currentStamina += regenRate * Time.deltaTime;
+            currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
+        }
+
     }
     public void UseStaminaOnAttack()
     {
-        if (currentStamina > 0)
+        if (currentStamina > 0 )
         {
             currentStamina -= attackStaminaUsage;
             currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);

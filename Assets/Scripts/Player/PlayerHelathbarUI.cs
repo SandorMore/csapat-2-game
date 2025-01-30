@@ -20,6 +20,6 @@ public class PlayerHelathbarUI : MonoBehaviour
     {
         slider.maxValue = player.maxHealt;
         slider.value = player.currentHealth;
-        
+
     }
 }

@@ -45,7 +45,7 @@ public class PlayerGroundedState : PlayerState
                 player.UseStamina();
                 stateMachine.ChangeState(player.jumpState);
         }
-        if (Input.GetKey(KeyCode.Mouse1))
+        if (Input.GetKey(KeyCode.Mouse1) && player.currentStamina >= 45)
         {
             stateMachine.ChangeState(player.blockState);
         }

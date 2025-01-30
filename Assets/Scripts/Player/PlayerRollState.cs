@@ -12,7 +12,6 @@ public class PlayerRollState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        player.isRolling = true;
         stateTimer = 0.5f;
         player.IsVoulnerable = false;
     }
@@ -21,7 +20,6 @@ public class PlayerRollState : PlayerState
     {
         base.Exit();
         player.SetVelocity(0, rb.velocity.y);
-        player.isRolling = false;
         player.IsVoulnerable = true;
     }
 
