@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy_Soldier : Enemy
 {
-
+    public float distanceToPlayer;
     #region States
 
     public SoldierIdleState idleState { get; private set; }
@@ -34,6 +34,7 @@ public class Enemy_Soldier : Enemy
 
     protected override void Update()
     {
+        distanceToPlayer = IsPlayerDetected().distance;
         base.Update();
     }
 }
