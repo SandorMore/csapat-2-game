@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class EnemySoldierAnimationTriggers : MonoBehaviour
 {
-    private PlayerStateMachine playerStateMachine;
-    private Player player;
     private Enemy_Soldier enemy => GetComponentInParent<Enemy_Soldier>();
 
     private void AnimationTrigger()
@@ -21,7 +19,10 @@ public class EnemySoldierAnimationTriggers : MonoBehaviour
         {
             if (hit.GetComponent<Player>() != null)
             {
-                hit.GetComponent<Player>().currentHealth -= enemy.damage;
+                if (hit.GetComponent<Player>().IsVoulnerable == true)
+                {
+                    hit.GetComponent<Player>().currentHealth -= enemy.damage;
+                }
             }
         }
     }

@@ -13,12 +13,14 @@ public class PlayerBlockState : PlayerState
     {
         base.Enter();
         player.ZeroVelocity();
+        player.IsVoulnerable = false;
     }
 
     public override void Exit()
     {
         base.Exit();
         player.ZeroVelocity();
+        player.IsVoulnerable = true;
     }
 
     public override void Update()

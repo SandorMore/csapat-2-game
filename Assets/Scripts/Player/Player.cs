@@ -33,6 +33,8 @@ public class Player : Entity
     public float damage = 25f;
 
     public int souls = 0;
+
+    public bool IsVoulnerable = true;
     #endregion
     [Header("LayerStuff")]
 
