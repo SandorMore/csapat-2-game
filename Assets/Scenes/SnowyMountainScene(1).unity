@@ -97899,6 +97899,12 @@ MonoBehaviour:
   - 0
   - 0
   - 5
+  vigor: 10
+  endurance: 10
+  agility: 10
+  strength: 10
+  dexterity: 10
+  spirit: 10
   maxHealt: 200
   currentHealth: 0
   maxStamina: 150

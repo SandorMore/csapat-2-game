@@ -25,8 +25,8 @@ public class EnemySoldierAnimationTriggers : MonoBehaviour
                 }
                 if (hit.GetComponent<Player>().IsVoulnerable == true)
                 {
-
                     hit.GetComponent<Player>().currentHealth -= enemy.damage;
+                    hit.GetComponent<Player>().Damage();
                 }
             }
         }

@@ -13,12 +13,20 @@ public class Player : Entity
     [Header("Attack Info")]
 
     public float[] attackMovement;
-
-
-    [Header("Character Stats")]
     #endregion
+    #region Basestats
+    [Header("Player Base Stats")]
+    public int vigor = 10;
+    public int endurance = 10;
+    public int agility = 10;
+    public int strength = 10;
+    public int dexterity = 10;
+    public int spirit = 10;
+    #endregion
+
     #region Stats
-    public float maxHealt = 200f;
+    [Header("Player In-Game Stats")]
+    public float maxHealt = 20f;
     public float currentHealth;
     public float maxStamina = 130f;
     public float currentStamina;
@@ -33,7 +41,6 @@ public class Player : Entity
     public float healPower = 20f;
     public int healAmount = 3;
     public float damage = 25f;
-
     public int souls = 0;
 
     public bool IsVoulnerable = true;
@@ -60,6 +67,7 @@ public class Player : Entity
     #endregion
     protected override void Awake()
     {
+
         base.Awake();
         stateMachine = new PlayerStateMachine();
         #region InvokeStates
@@ -85,7 +93,6 @@ public class Player : Entity
     {
         base.Update();
         stateMachine.currentState.Update();
-
     }
     public void AnimatopnTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
@@ -100,7 +107,7 @@ public class Player : Entity
     }
     public void UseStaminaOnAttack()
     {
-        if (currentStamina > 0 )
+        if (currentStamina > 0)
         {
             currentStamina -= attackStaminaUsage;
             currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
