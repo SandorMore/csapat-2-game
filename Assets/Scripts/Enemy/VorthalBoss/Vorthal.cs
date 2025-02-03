@@ -9,6 +9,7 @@ public class Vorthal : Enemy
     public float[] attackMovement;
     public float BASESPEED = 1f;
     public bool isBossFight = false;
+    public int phase = 1;
     [HideInInspector] public int playerFacingDir { get; private set; } = 1;
     #region States
 
@@ -39,8 +40,19 @@ public class Vorthal : Enemy
     {
         base.Update();
         distanceToPlayer = IsPlayerDetected().distance;
+        if (currentHealth <= 0)
+        {
+            currentHealth = maxHealth;
+            phase++;
+        }
     }
     public override RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 100, whatIsPlayer);
 
     public void AnimatopnTrigger() => stateMachine.currentState.AnimationFinishTrigger();
+    public override void Flip()
+    {
+        playerFacingDir = playerFacingDir * -1;
+        facingRight = !facingRight;
+        anim.transform.Rotate(0, 180, 0);
+    }
 }

@@ -19,10 +19,21 @@ public class VorthalAttackState : EnemyState
 
     public override void Enter()
     {
+        if (enemy.phase == 2)
+        {
+            enemy.attackSpeed = 1.24f;
+            enemy.damage = 35;
+            enemy.moveSpeed = 6;
+        }
         base.Enter();
+
         if (comboCounter == 3)
         {
-            enemy.damage = 50;
+            if(enemy.phase == 2)
+            {
+                enemy.damage = 75;
+            }
+            
         }
         if (comboCounter > 3 || Time.time >= lastTimeAttacked + comboWindow)
         {

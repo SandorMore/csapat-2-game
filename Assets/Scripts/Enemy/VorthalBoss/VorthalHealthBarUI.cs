@@ -6,18 +6,15 @@ public class VorthalHealthBarUI : MonoBehaviour
 {
     private Slider slider;
     private Vorthal vorthal;
-    
+
     void Start()
     {
         slider = GetComponentInChildren<Slider>();
         vorthal = GetComponentInParent<Vorthal>();
+        
     }
     void Update()
     {
-        //if (vorthal.isBossFight == true)
-        //{
-        //    
-        //}
         UpdateHealthUI();
     }
     public void UpdateHealthUI()

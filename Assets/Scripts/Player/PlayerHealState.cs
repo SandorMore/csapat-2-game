@@ -12,6 +12,7 @@ public class PlayerHealState : PlayerState
     {
         base.Enter();
         stateTimer = .6f;
+        player.ZeroVelocity();
         if (player.currentHealth != player.maxHealt && player.healAmount != 0)
         {
             player.currentHealth += player.healPower;
@@ -30,6 +31,7 @@ public class PlayerHealState : PlayerState
 
     public override void Update()
     {
+        player.ZeroVelocity();
         base.Update();
         if (0 > stateTimer)
         {
