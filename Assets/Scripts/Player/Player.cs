@@ -43,6 +43,7 @@ public class Player : Entity
     public float damage = 25f;
     public int souls = 0;
 
+    public bool IsBlocking = false;
     public bool IsVoulnerable = true;
     [HideInInspector] public int playerFacingDir { get; private set; } = 1;
     [HideInInspector] public bool canRegen = true;

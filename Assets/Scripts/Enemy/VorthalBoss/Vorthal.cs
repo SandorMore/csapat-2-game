@@ -8,6 +8,7 @@ public class Vorthal : Enemy
     public float attackSpeed = 1.28f;
     public float[] attackMovement;
     public float BASESPEED = 1f;
+    public bool isBossFight = false;
     [HideInInspector] public int playerFacingDir { get; private set; } = 1;
     #region States
 

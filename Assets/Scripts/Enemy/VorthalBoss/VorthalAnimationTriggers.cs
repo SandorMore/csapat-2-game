@@ -18,7 +18,7 @@ public class VorthalAnimationTriggers : MonoBehaviour
         {
             if (hit.GetComponent<Player>() != null)
             {
-                if (hit.GetComponent<Player>().IsVoulnerable == false)
+                if (hit.GetComponent<Player>().IsBlocking == true)
                 {
                     hit.GetComponent<Player>().currentStamina -= 45f;
                 }

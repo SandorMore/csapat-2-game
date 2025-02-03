@@ -20,7 +20,11 @@ public class VorthalAttackState : EnemyState
     public override void Enter()
     {
         base.Enter();
-        if (comboCounter > 4 || Time.time >= lastTimeAttacked + comboWindow)
+        if (comboCounter == 3)
+        {
+            enemy.damage = 50;
+        }
+        if (comboCounter > 3 || Time.time >= lastTimeAttacked + comboWindow)
         {
             comboCounter = 0;
         }

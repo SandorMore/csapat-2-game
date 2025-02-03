@@ -15,6 +15,7 @@ public class PlayerBlockState : PlayerState
         player.ZeroVelocity();
         player.IsVoulnerable = false;
         player.canRegen = false;
+        player.IsBlocking = true;
     }
 
     public override void Exit()
@@ -22,7 +23,7 @@ public class PlayerBlockState : PlayerState
         base.Exit();
         player.ZeroVelocity();
         player.IsVoulnerable = true;
-
+        player.IsBlocking = false;
     }
 
     public override void Update()
