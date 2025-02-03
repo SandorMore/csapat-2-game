@@ -11,7 +11,7 @@ public class VorthalAttackState : EnemyState
     private float lastTimeAttacked;
     private float comboWindow = 2f;
     private int facingDir;
-
+    private float baseRadius;
     public VorthalAttackState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Vorthal _enemy) : base(_enemyBase, _stateMachine, _animBoolName)
     {
         this.enemy = _enemy;
@@ -19,6 +19,14 @@ public class VorthalAttackState : EnemyState
 
     public override void Enter()
     {
+        if (comboCounter == 2)
+        {
+            enemy.attackCheckRadius = 3f;
+        }
+        if(comboCounter != 2)
+        {
+            enemy.attackCheckRadius = 1.7f;
+        }
         if (enemy.phase == 2)
         {
             enemy.attackSpeed = 1.24f;

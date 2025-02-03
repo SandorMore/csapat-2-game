@@ -11,15 +11,15 @@
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vorthalboss\\vorthal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\player\\playerhealstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\player\\playerhealstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\vorthalboss\\vorthalhealthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\vorthalboss\\vorthalhealthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vorthalboss\\vorthalhealthbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\player\\playerstaminabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\player\\playerstaminabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstaminabarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalAttackState.cs",
               "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalAttackState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalAttackState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T11:30:11.681Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T11:20:11.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T11:20:11.072Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerStaminabarUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T10:59:42.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T10:59:42.695Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerAnimationTriggers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T10:08:59.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T10:08:59.511Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwCwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:22:48.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T09:22:48.606Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalHealthBarUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:21:00.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T09:21:00.894Z"
             }
           ]
         }

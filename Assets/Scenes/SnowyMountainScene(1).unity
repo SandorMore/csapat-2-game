@@ -89924,7 +89924,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344879174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.444, y: -0.16071446, z: 0}
+  m_LocalPosition: {x: 0.811, y: -0.16071446, z: 0}
   m_LocalScale: {x: 1.7857143, y: 1.7857143, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97951,7 +97951,7 @@ MonoBehaviour:
   attackSpeed: 1
   BASESPEED: 1
   healPower: 40
-  healAmount: 3
+  healAmount: 4
   damage: 20
   souls: 0
   IsBlocking: 0
@@ -100629,7 +100629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackCheck: {fileID: 344879175}
-  attackCheckRadius: 2.3
+  attackCheckRadius: 1.7
   groundCheck: {fileID: 585028099}
   groundCheckDistance: 1
   wallCheck: {fileID: 1171786512}
