@@ -53,9 +53,10 @@ public class VorthalJumpAttackState : EnemyState
 
             float heightOffset = Mathf.Sin(jumpProgress * Mathf.PI) * jumpHeight;
             enemy.transform.position = Vector3.Lerp(startPosition, targetPosition, jumpProgress)+ Vector3.up * heightOffset;
-            if (jumpProgress > .74f)
+            if (enemy.isGroundDetected())
             {
-                enemy.transform.position = new Vector3(enemy.transform.position.x, targetPosition.y + 0.6f, enemy.transform.position.z);
+                isJumping = false;
+                stateMachine.ChangeState(enemy.battleState);
             }
             if (jumpProgress >= 1f)
             {
