@@ -25,6 +25,10 @@ public class VorthalBattleState : EnemyState
 
     public override void Update()
     {
+        if(enemy.IsPlayerDetected().distance > 15)
+        {
+            stateMachine.ChangeState(enemy.jumpAttackState);
+        }
         if (enemy.transform.position != player.position)
         {
             enemy.SetVelocity(enemy.moveSpeed * moveDir * 1.39f, rb.velocity.y);
@@ -48,7 +52,7 @@ public class VorthalBattleState : EnemyState
         }
         float distanceToPlayerX = Mathf.Abs(player.position.x - enemy.transform.position.x);
 
-        if (distanceToPlayerX < 0.6f)
+        if (distanceToPlayerX < 0.2f)
         {
             return;
         }

@@ -9,16 +9,18 @@ public class VorthalAttackState : EnemyState
     private int comboCounter;
 
     private float lastTimeAttacked;
-    private float comboWindow = 2f;
+    private float comboWindow = 10f;
     private int facingDir;
-    private float baseRadius;
     public VorthalAttackState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Vorthal _enemy) : base(_enemyBase, _stateMachine, _animBoolName)
     {
         this.enemy = _enemy;
     }
+ 
+
 
     public override void Enter()
     {
+
         if (comboCounter == 2)
         {
             enemy.attackCheckRadius = 3f;
@@ -41,7 +43,6 @@ public class VorthalAttackState : EnemyState
             {
                 enemy.damage = 75;
             }
-            
         }
         if (comboCounter > 3 || Time.time >= lastTimeAttacked + comboWindow)
         {

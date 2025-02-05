@@ -5,7 +5,17 @@ using UnityEngine;
 public class VorthalJumpAttackState : EnemyState
 {
     private Vorthal enemy;
-    public VorthalJumpAttackState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Vorthal _enemy) : base(_enemyBase, _stateMachine, _animBoolName)
+    public float jumpSpeed = 1f;
+    public float jumpHeight = 2f;
+
+    private Transform player;
+    private Vector3 startPosition;
+    private Vector3 targetPosition;
+    private float jumpProgress = 0f;
+    private bool isJumping = false;
+
+    public VorthalJumpAttackState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Vorthal _enemy)
+        : base(_enemyBase, _stateMachine, _animBoolName)
     {
         this.enemy = _enemy;
     }
@@ -13,6 +23,16 @@ public class VorthalJumpAttackState : EnemyState
     public override void Enter()
     {
         base.Enter();
+
+        
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null)
+        {
+            player = playerObject.transform;
+        }
+
+       
+        JumpToPlayer();
     }
 
     public override void Exit()
@@ -23,5 +43,37 @@ public class VorthalJumpAttackState : EnemyState
     public override void Update()
     {
         base.Update();
+
+        if (isJumping)
+        {
+            enemy.attackCheckRadius = 5f;
+            enemy.damage = 50;
+            jumpProgress += Time.deltaTime * jumpSpeed;
+            jumpProgress = Mathf.Clamp01(jumpProgress);
+
+            float heightOffset = Mathf.Sin(jumpProgress * Mathf.PI) * jumpHeight;
+            enemy.transform.position = Vector3.Lerp(startPosition, targetPosition, jumpProgress)+ Vector3.up * heightOffset;
+            if (jumpProgress > .74f)
+            {
+                enemy.transform.position = new Vector3(enemy.transform.position.x, targetPosition.y + 0.6f, enemy.transform.position.z);
+            }
+            if (jumpProgress >= 1f)
+            {
+                isJumping = false;
+
+
+                enemy.transform.position = new Vector3(enemy.transform.position.x, targetPosition.y + 0.6f, enemy.transform.position.z);
+                stateMachine.ChangeState(enemy.battleState);
+            }
+        }
+    }
+
+    private void JumpToPlayer()
+    {
+
+        startPosition = enemy.transform.position;
+        targetPosition = player.position;
+        jumpProgress = 0f;
+        isJumping = true;
     }
 }

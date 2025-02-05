@@ -10,6 +10,7 @@ public class Vorthal : Enemy
     public float BASESPEED = 1f;
     public bool isBossFight = false;
     public int phase = 1;
+    public bool isStopped = false;
     [HideInInspector] public int playerFacingDir { get; private set; } = 1;
     #region States
 
@@ -54,5 +55,15 @@ public class Vorthal : Enemy
         playerFacingDir = playerFacingDir * -1;
         facingRight = !facingRight;
         anim.transform.Rotate(0, 180, 0);
+    }
+    public void StopEnemy()
+    {
+        StartCoroutine(StopEnemyCorutine());
+    }
+    public IEnumerator StopEnemyCorutine()
+    {
+        moveSpeed = 0;
+        yield return new WaitForSecondsRealtime(1.3f);
+        moveSpeed = 5f;
     }
 }
