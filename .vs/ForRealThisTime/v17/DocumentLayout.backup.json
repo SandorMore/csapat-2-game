@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\vorthalboss\\vorthalbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vorthalboss\\vorthalbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\vorthalboss\\vorthaljumpattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vorthalboss\\vorthaljumpattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\vorthalboss\\vorthaljumpattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vorthalboss\\vorthaljumpattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\vorthalboss\\vorthalattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vorthalboss\\vorthalattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|c:\\users\\msaso\\desktop\\forrealthistime\\assets\\scripts\\enemy\\vorthalboss\\vorthalbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\vorthalboss\\vorthalbattlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8ABBB451-44CB-E8D5-9F1E-B4C03CE56F84}|Assembly-CSharp.csproj|C:\\Users\\msaso\\Desktop\\ForRealThisTime\\assets\\scripts\\enemy\\vorthalboss\\vorthal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,37 +38,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VorthalBattleState.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Vorthal.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAA3wAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T07:45:02.288Z",
+              "WhenOpened": "2025-02-03T09:22:48.606Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VorthalJumpAttackState.cs",
               "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalJumpAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalJumpAttackState.cs",
               "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalJumpAttackState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalJumpAttackState.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwD0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T07:43:51.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "VorthalAttackState.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalAttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalAttackState.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalAttackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalAttackState.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T08:42:35.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VorthalBattleState.cs",
+              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
+              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalBattleState.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA6wBsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T07:45:02.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerStaminabarUI.cs",
               "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Player\\PlayerStaminabarUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerStaminabarUI.cs",
@@ -76,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerAnimationTriggers.cs",
               "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Player\\PlayerAnimationTriggers.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAnimationTriggers.cs",
@@ -88,19 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Vorthal.cs",
-              "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
-              "ToolTip": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\VorthalBoss\\Vorthal.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwCwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:22:48.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VorthalHealthBarUI.cs",
               "DocumentMoniker": "C:\\Users\\msaso\\Desktop\\ForRealThisTime\\Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalHealthBarUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\VorthalBoss\\VorthalHealthBarUI.cs",
