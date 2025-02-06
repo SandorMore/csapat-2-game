@@ -11,6 +11,7 @@ public class Vorthal : Enemy
     public bool isBossFight = false;
     public int phase = 1;
     public bool isStopped = false;
+    public bool convoDone;
     [HideInInspector] public int playerFacingDir { get; private set; } = 1;
     #region States
 
@@ -20,6 +21,7 @@ public class Vorthal : Enemy
     public VorthalAttackState attackState { get; private set; }
     public VorthalBattleState battleState { get; private set; }
     public VorthalJumpAttackState jumpAttackState { get; private set; }
+    public VorthalTransitionState transitionState { get; private set; }
     #endregion
 
     protected override void Awake()
@@ -31,6 +33,8 @@ public class Vorthal : Enemy
         battleState = new VorthalBattleState(this, stateMachine, "Walk", this);
         deathState = new VorthalDeathState(this, stateMachine, "Death", this);
         jumpAttackState = new VorthalJumpAttackState(this, stateMachine, "JumpAttack", this);
+        transitionState = new VorthalTransitionState(this, stateMachine, "Transition", this);
+
     }
     protected override void Start()
     {
@@ -44,7 +48,9 @@ public class Vorthal : Enemy
         if (currentHealth <= 0)
         {
             currentHealth = maxHealth;
+            stateMachine.ChangeState(transitionState);
             phase++;
+            convoDone = false;
         }
     }
     public override RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 100, whatIsPlayer);

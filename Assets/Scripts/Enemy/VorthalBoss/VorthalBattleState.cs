@@ -25,7 +25,7 @@ public class VorthalBattleState : EnemyState
 
     public override void Update()
     {
-        if(enemy.IsPlayerDetected().distance > 15)
+        if(enemy.IsPlayerDetected().distance > 10 || enemy.IsPlayerDetected().distance * -1 < 10)
         {
             stateMachine.ChangeState(enemy.jumpAttackState);
         }

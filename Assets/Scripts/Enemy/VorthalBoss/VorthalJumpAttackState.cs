@@ -5,7 +5,7 @@ using UnityEngine;
 public class VorthalJumpAttackState : EnemyState
 {
     private Vorthal enemy;
-    public float jumpSpeed = 1f;
+    public float jumpSpeed = 1.3f;
     public float jumpHeight = 2f;
 
     private Transform player;
@@ -43,7 +43,10 @@ public class VorthalJumpAttackState : EnemyState
     public override void Update()
     {
         base.Update();
-
+        if (isJumping == false)
+        {
+            enemy.damage = 20;
+        }
         if (isJumping)
         {
             enemy.attackCheckRadius = 5f;
@@ -57,12 +60,13 @@ public class VorthalJumpAttackState : EnemyState
             {
                 isJumping = false;
                 stateMachine.ChangeState(enemy.battleState);
+                enemy.damage = 20;
             }
             if (jumpProgress >= 1f)
             {
                 isJumping = false;
 
-
+                
                 enemy.transform.position = new Vector3(enemy.transform.position.x, targetPosition.y + 0.6f, enemy.transform.position.z);
                 stateMachine.ChangeState(enemy.battleState);
             }
