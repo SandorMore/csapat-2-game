@@ -6,7 +6,7 @@ public class VorthalJumpAttackState : EnemyState
 {
     private Vorthal enemy;
     public float jumpSpeed = 1.3f;
-    public float jumpHeight = 2f;
+    public float jumpHeight = 2.4f;
 
     private Transform player;
     private Vector3 startPosition;
@@ -26,10 +26,8 @@ public class VorthalJumpAttackState : EnemyState
 
         
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
-        if (playerObject != null)
-        {
-            player = playerObject.transform;
-        }
+
+        player = playerObject.transform;
 
        
         JumpToPlayer();
@@ -59,15 +57,16 @@ public class VorthalJumpAttackState : EnemyState
             if (enemy.isGroundDetected())
             {
                 isJumping = false;
-                stateMachine.ChangeState(enemy.battleState);
                 enemy.damage = 20;
+                stateMachine.ChangeState(enemy.battleState);
             }
             if (jumpProgress >= 1f)
             {
-                isJumping = false;
-
                 
-                enemy.transform.position = new Vector3(enemy.transform.position.x, targetPosition.y + 0.6f, enemy.transform.position.z);
+                isJumping = false;
+                enemy.damage = 20;
+
+                enemy.transform.position = new Vector3(enemy.transform.position.x, targetPosition.y + 1f, enemy.transform.position.z);
                 stateMachine.ChangeState(enemy.battleState);
             }
         }

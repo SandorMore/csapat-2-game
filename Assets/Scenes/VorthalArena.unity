@@ -24186,7 +24186,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.32, y: -11.58, z: -9.945545}
+  m_LocalPosition: {x: 134.1, y: -11.58, z: -9.945545}
   m_LocalScale: {x: 2.6626, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24307,7 +24307,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542592189}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.32, y: -11.58, z: 0.054454442}
+  m_LocalPosition: {x: 134.1, y: -11.58, z: 0.054454442}
   m_LocalScale: {x: 0.96, y: 0.96, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24393,7 +24393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585028098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.068, y: -1.3289, z: 0}
+  m_LocalPosition: {x: -0.187, y: -1.318, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25837,7 +25837,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597569867}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 143.75, y: -10.07, z: 0}
+  m_LocalPosition: {x: 112.9, y: -10.07, z: 0}
   m_LocalScale: {x: 2.2, y: 2.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25877,7 +25877,7 @@ MonoBehaviour:
   attackCheck: {fileID: 344879175}
   attackCheckRadius: 1.7
   groundCheck: {fileID: 585028099}
-  groundCheckDistance: 0.01
+  groundCheckDistance: 0.1
   wallCheck: {fileID: 1171786512}
   wallCheckDistance: 2
   whatIsGround:
@@ -26823,7 +26823,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058510937}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.32, y: -11.58, z: -9.945545}
+  m_LocalPosition: {x: 134.1, y: -11.58, z: -9.945545}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

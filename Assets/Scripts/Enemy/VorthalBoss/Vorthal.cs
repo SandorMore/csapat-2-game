@@ -72,4 +72,15 @@ public class Vorthal : Enemy
         yield return new WaitForSecondsRealtime(1.3f);
         moveSpeed = 5f;
     }
+
+    public void WaitAndChangeToIdle(float waitTime)
+    {
+        StartCoroutine(WaitAndChangeToIdleCoroutine(waitTime));
+    }
+
+    private IEnumerator WaitAndChangeToIdleCoroutine(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        stateMachine.ChangeState(idleState);
+    }
 }

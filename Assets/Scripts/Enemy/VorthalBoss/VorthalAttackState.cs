@@ -20,7 +20,6 @@ public class VorthalAttackState : EnemyState
 
     public override void Enter()
     {
-
         if (comboCounter == 2)
         {
             enemy.attackCheckRadius = 3f;

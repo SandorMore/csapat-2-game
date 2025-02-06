@@ -24,7 +24,7 @@ public class PlayerGroundedState : PlayerState
         {
             stateMachine.ChangeState(player.deathState);
         }
-        if (Input.GetKeyDown(KeyCode.H) && player.healAmount != 0 && player.currentHealth != player.maxHealt)
+        if (Input.GetKeyDown(KeyCode.Q) && player.healAmount != 0 && player.currentHealth != player.maxHealt)
         {
             stateMachine.ChangeState(player.healState);
 
