@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1123
+  controlID: 10257
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 1095
+  controlID: 10258
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -463,9 +463,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 112.73332, y: -12.9620285, z: -4.486765}
+    m_Target: {x: 120.20251, y: -14.982777, z: -4.510365}
     speed: 2
-    m_Value: {x: 112.73332, y: -12.9620285, z: -4.486765}
+    m_Value: {x: 120.20251, y: -14.982777, z: -4.510365}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -516,9 +516,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 0.7463961
+    m_Target: 3.1066823
     speed: 2
-    m_Value: 0.7463961
+    m_Value: 3.1066823
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -751,7 +751,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 50460
+  m_LastSelectedObjectID: -8502
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 1124
+  controlID: 10213
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -837,7 +837,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: daf7ffff3af8ffff0efbffff
+      m_ExpandedIDs: 0efbfffff45f00003e60000086600000c2600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -928,7 +928,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Enemy/VorthalBoss
+    - Assets/Assetek/Ultimate Dark Fantasy UI set v1.2/Player Bar/potions/x2
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
@@ -943,7 +943,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 1ab00000
     m_LastClickedID: 45082
-    m_ExpandedIDs: ffffffff00000000406100007a6100007e6100001a6500001c6500001e65000020650000226500002465000026650000286500002a6500002c650000
+    m_ExpandedIDs: ffffffff00000000406100007a6100007e6100001a6500001c65000020650000226500002465000026650000286500002a6500002c65000074650000a868000098760000507800006e8f00004c98000068a30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -968,10 +968,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 574.3334}
-    m_SelectedIDs: 1cc50000
+    scrollPos: {x: 0, y: 1306.3334}
+    m_SelectedIDs: cadeffff
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000406100007a6100007e6100001a6500001c6500001e65000020650000226500002465000026650000286500002a6500002c650000
+    m_ExpandedIDs: ffffffff00000000406100007a6100007e6100001a6500001c65000020650000226500002465000026650000286500002a6500002c65000074650000a868000098760000507800006e8f00004c98000068a30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -996,8 +996,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1cc50000
-    m_LastClickedInstanceID: 50460
+    m_SelectedInstanceIDs: cadeffff
+    m_LastClickedInstanceID: -8502
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -1154,8 +1154,8 @@ MonoBehaviour:
     m_CachedPref: -540
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 50460
-  m_LastVerticalScrollValue: 162
+  m_LastInspectedObjectInstanceID: -8502
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
