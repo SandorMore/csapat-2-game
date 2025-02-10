@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 10257
+  controlID: 1547
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 10258
+  controlID: 1471
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,8 +163,8 @@ MonoBehaviour:
     y: 0
     width: 909.3333
     height: 471.33334
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -463,9 +463,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 120.20251, y: -14.982777, z: -4.510365}
+    m_Target: {x: 144.83969, y: -5.485722, z: -4.4886184}
     speed: 2
-    m_Value: {x: 120.20251, y: -14.982777, z: -4.510365}
+    m_Value: {x: 144.83969, y: -5.485722, z: -4.4886184}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -516,9 +516,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.1066823
+    m_Target: 0.9229274
     speed: 2
-    m_Value: 3.1066823
+    m_Value: 0.9229274
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -751,7 +751,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -8502
+  m_LastSelectedObjectID: -2372
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 10213
+  controlID: 1548
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -837,7 +837,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0efbfffff45f00003e60000086600000c2600000
+      m_ExpandedIDs: 0efbfffffc5f0000a2600000de600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -927,8 +927,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 1
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Assetek/Ultimate Dark Fantasy UI set v1.2/Player Bar/potions/x2
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
     m_FilterByTypeIntersection: 0
@@ -943,7 +942,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 1ab00000
     m_LastClickedID: 45082
-    m_ExpandedIDs: ffffffff00000000406100007a6100007e6100001a6500001c65000020650000226500002465000026650000286500002a6500002c65000074650000a868000098760000507800006e8f00004c98000068a30000
+    m_ExpandedIDs: ffffffff000000005c6100009c610000a4610000a66100006a6500006c6500006e65000070650000726500007465000076650000786500007a6500007c650000806500008265000086650000ca650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -968,10 +967,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 1306.3334}
-    m_SelectedIDs: cadeffff
+    scrollPos: {x: 0, y: 1022.3334}
+    m_SelectedIDs: bcf6ffff
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000406100007a6100007e6100001a6500001c65000020650000226500002465000026650000286500002a6500002c65000074650000a868000098760000507800006e8f00004c98000068a30000
+    m_ExpandedIDs: ffffffff000000005c6100009c610000a4610000a66100006a6500006c6500006e65000070650000726500007465000076650000786500007a6500007c6500008265000086650000ca650000a0690000b8770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -996,8 +995,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cadeffff
-    m_LastClickedInstanceID: -8502
+    m_SelectedInstanceIDs: bcf6ffff
+    m_LastClickedInstanceID: -2372
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -1075,8 +1074,8 @@ MonoBehaviour:
     y: 0
     width: 397.33325
     height: 934
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
@@ -1154,7 +1153,7 @@ MonoBehaviour:
     m_CachedPref: -540
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -8502
+  m_LastInspectedObjectInstanceID: -2372
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

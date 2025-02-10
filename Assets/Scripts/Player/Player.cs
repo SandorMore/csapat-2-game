@@ -94,6 +94,7 @@ public class Player : Entity
     {
         base.Update();
         stateMachine.currentState.Update();
+        
     }
     public void AnimatopnTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
