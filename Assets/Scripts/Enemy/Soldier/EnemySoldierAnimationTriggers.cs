@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemySoldierAnimationTriggers : MonoBehaviour
 {
     private PlayerStateMachine playerStateMachine;
-    private Player player;
+    private Player_Legacy player;
     private Enemy_Soldier enemy => GetComponentInParent<Enemy_Soldier>();
 
     private void AnimationTrigger()
@@ -19,9 +19,9 @@ public class EnemySoldierAnimationTriggers : MonoBehaviour
 
         foreach (var hit in colliders)
         {
-            if (hit.GetComponent<Player>() != null)
+            if (hit.GetComponent<Player_Legacy>() != null)
             {
-                hit.GetComponent<Player>().currentHealth -= enemy.damage;
+                hit.GetComponent<Player_Legacy>().currentHealth -= enemy.damage;
             }
         }
     }

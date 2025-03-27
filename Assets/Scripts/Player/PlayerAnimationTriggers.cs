@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAnimationTriggers : MonoBehaviour
 {
-    private Player player => GetComponentInParent<Player>();
+    private Player_Legacy player => GetComponentInParent<Player_Legacy>();
     private void AnimationTrigger()
     {
         player.AnimatopnTrigger();

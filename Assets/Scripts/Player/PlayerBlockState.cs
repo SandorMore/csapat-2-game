@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerBlockState : PlayerState
 {
-    public PlayerBlockState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
+    public PlayerBlockState(Player_Legacy _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
     {
 
     }

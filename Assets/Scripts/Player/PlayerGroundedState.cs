@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerGroundedState : PlayerState
 {
-    public PlayerGroundedState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
+    public PlayerGroundedState(Player_Legacy _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
     {
     }
 
@@ -27,7 +27,6 @@ public class PlayerGroundedState : PlayerState
         if (Input.GetKeyDown(KeyCode.H) && player.healAmount != 0 && player.currentHealth != player.maxHealt)
         {
             stateMachine.ChangeState(player.healState);
-
         }
         if (Input.GetKey(KeyCode.Mouse0) && player.currentStamina > player.attackStaminaUsage)
         {

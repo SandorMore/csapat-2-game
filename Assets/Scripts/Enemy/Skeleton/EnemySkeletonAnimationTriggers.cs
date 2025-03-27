@@ -16,9 +16,9 @@ public class EnemySkeletonAnimationTriggers : MonoBehaviour
 
         foreach (var hit in colliders)
         {
-            if (hit.GetComponent<Player>() != null)
+            if (hit.GetComponent<Player_Legacy>() != null)
             {
-                hit.GetComponent<Player>().currentHealth -= enemy.damage;
+                hit.GetComponent<Player_Legacy>().currentHealth -= enemy.damage;
             }
         }
     }

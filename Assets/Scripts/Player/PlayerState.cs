@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerState 
 {
     protected PlayerStateMachine stateMachine;
-    protected Player player;
+    protected Player_Legacy player;
 
     protected Rigidbody2D rb;
 
@@ -14,7 +14,7 @@ public class PlayerState
     private string animBoolName;
 
     protected bool triggerCalled;
-    public PlayerState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName)
+    public PlayerState(Player_Legacy _player, PlayerStateMachine _stateMachine, string _animBoolName)
     {
         this.player = _player;
         this.stateMachine = _stateMachine;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.PackageManager;
 using UnityEngine;
 
-public class Enemy : Entity
+public class Enemy : Entity_Legacy
 {
     [SerializeField] protected LayerMask whatIsPlayer;
     [Header("Stats")]
