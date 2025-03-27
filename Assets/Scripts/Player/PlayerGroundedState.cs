@@ -24,7 +24,7 @@ public class PlayerGroundedState : PlayerState
         {
             stateMachine.ChangeState(player.deathState);
         }
-        if (Input.GetKeyDown(KeyCode.H) && player.healAmount != 0 && player.currentHealth != player.maxHealt)
+        if (Input.GetKeyDown(KeyCode.Q) && player.healAmount != 0 && player.currentHealth != player.maxHealt)
         {
             stateMachine.ChangeState(player.healState);
         }
@@ -44,7 +44,7 @@ public class PlayerGroundedState : PlayerState
                 player.UseStamina();
                 stateMachine.ChangeState(player.jumpState);
         }
-        if (Input.GetKey(KeyCode.Mouse1))
+        if (Input.GetKey(KeyCode.Mouse1) && player.currentStamina >= 45)
         {
             stateMachine.ChangeState(player.blockState);
         }

@@ -18,6 +18,7 @@ public class PlayerAnimationTriggers : MonoBehaviour
             if(hit.GetComponent<Enemy>() != null)
             {
                 hit.GetComponent<Enemy>().currentHealth -= player.damage;
+                hit.GetComponent<Enemy>().Damage();
             }
         }
     }

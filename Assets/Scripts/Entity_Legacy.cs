@@ -18,17 +18,20 @@ public class Entity_Legacy : MonoBehaviour
     #region Components
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
+
+    public EntityFx fx { get; private set; }
     #endregion
 
     public int facingDir { get; private set; } = 1;
     protected bool facingRight = true;
-
+    public System.Action onFlip;
     protected virtual void Awake()
     {
 
     }
     protected virtual void Start()
     {
+        fx = GetComponent<EntityFx>();
         anim = GetComponentInChildren<Animator>();
         rb = GetComponentInChildren<Rigidbody2D>();
     }
@@ -50,11 +53,12 @@ public class Entity_Legacy : MonoBehaviour
         facingDir = facingDir * -1;
         facingRight = !facingRight;
         transform.Rotate(0, 180, 0);
+
+        
     }
     public virtual void Damage()
     {
-        Debug.Log(gameObject.name + "Was damged");
-        
+        fx.StartCoroutine("FlashFx");   
     }
     public virtual void FlipController(float _x)
     {

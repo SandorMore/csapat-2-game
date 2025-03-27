@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: aac6f9d12fcfd344bb4615a475387147
   - enabled: 1
-    path: Assets/Scenes/SnowyMountainScene(1).unity
+    path: Assets/Scenes/VorthalArena.unity
     guid: 792e6312ffcd54048afe4d4c0694b725
   m_configObjects: {}
